@@ -1,11 +1,11 @@
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
-    SUPPORT_CHAT_LINK = ""
-    DOWNLOAD_DIRECTORY = "./downloads/"
+    BOT_TOKEN = "2101208531:AAG5vq4Cm4_sp06Khf_wsjxcEe3ivCvEsjU"
+    APP_ID = "11647167"
+    API_HASH = "5f35eac2dedd06806cedff823716f641"
+    DATABASE_URL = "postgres://auukodqbjyisxa:c785638c6923c394989a120ca39e591dc2e2995beee56003afee308be1786e61@ec2-44-198-211-34.compute-1.amazonaws.com:5432/da0actf123skqj"
+    SUDO_USERS = "454988937" # Sepearted by space.
+    SUPPORT_CHAT_LINK = "https://t.me/joinchat/L53CFT0ceIc5N2M1"
+    DOWNLOAD_DIRECTORY = "./Samaj-Data/"
     G_DRIVE_CLIENT_ID = ""
     G_DRIVE_CLIENT_SECRET = ""
 
@@ -13,7 +13,7 @@ class config:
 class BotCommands:
   Download = ['download', 'dl']
   Authorize = ['auth', 'authorize']
-  SetFolder = ['setfolder', 'setfl']
+  SetFolder = ['setfolder', 'setfl'] 
   Revoke = ['revoke']
   Clone = ['copy', 'clone']
   Delete = ['delete', 'del']
